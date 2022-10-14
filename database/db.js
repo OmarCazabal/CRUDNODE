@@ -4,7 +4,8 @@ const conexion = mysql2.createConnection({
     host: 'localhost',
     user: 'root',
     password: 'n0m3l0',  
-    database: 'videojuegos'
+    database: 'videojuegos',
+    port:'3306'
 });
 
 conexion.connect((error)=>{
